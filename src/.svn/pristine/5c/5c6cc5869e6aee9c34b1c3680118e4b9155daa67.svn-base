@@ -1,0 +1,30 @@
+<!--
+  BFVSettings.html - rob cranfill, 2013
+-->
+<html>
+<head>
+	<title>BFV Settings</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=unicode"/>
+    <link href="css/BFVSettings.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/BFVSettings.js"></script>
+    <script type="text/javascript" src="js/SettingsManager.js"></script>
+</head>
+
+<body onload="loadSettings();" onkeydown="keyPressed();">
+
+	<p>Version 1.0.0.1</p>
+	<p><a href="mailto:robert.e.cranfill@boeing.com?subject=BFV">Rob Cranfill, BR&amp;T</a></p>
+
+    <div id="settingsContent">
+
+    <label for="fieldURL">URL:</label>
+    <input type="text" id="fieldURL" size="40" maxlength="120" title="URL of image to display."/>
+    <br />
+
+    <label for="fieldRefresh">Refresh (minutes):</label>
+    <input type="text" id="fieldRefresh" size="4" maxlength="4" title="How often to refresh the image, in minutes."/>
+    <br />
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/*
+  BFVSettings.css - rob cranfill, 2013
+*/
+body
+{
+  margin:   0px;
+  width:  480px;
+  height: 128px;
+}
+#settingsContent
+{
+  font-family:Tahoma;
+  font-size:x-small;
+}
+.inputValid
+{
+  color: Black;
+}
+.inputInvalid
+{
+  color: Red;
+}

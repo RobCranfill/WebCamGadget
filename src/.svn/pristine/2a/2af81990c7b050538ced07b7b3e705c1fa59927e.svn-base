@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- BFV - rob cranfill, 2013 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="MSThemeCompatible" CONTENT="yes"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=unicode"/>
+    <title>Boeing Field Viewer</title>
+    <link href="css/BFV.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/BFV.js"></script>
+    <script type="text/javascript" src="js/SettingsManager.js"></script>
+  </head>
+  <body onload="loadMain();" scroll="no">
+    <g:background id="viewBackground"/>
+    <div id="viewFrame">
+      <table id="viewFrameTable" cellpadding="0" cellspacing="0" width="100%" height="100%">
+         <tr>
+           <td align="center" valign="middle">
+             <img id="viewPicture" src="" alt="" width="100%" height="100%"/>
+            </td>
+         </tr>
+       </table>
+    </div>
+</body>
+</html>
